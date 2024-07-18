@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+
+}
+/* container should be static */
+.container{
+    display: flex;
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+.row{
+    flex: 1;
+}
+
+.square{
+    /* flex: 1; */
+    aspect-ratio: 1/1;
+    background-color: red;
+    border: 1px solid white;
+}
+
+.btn-row{
+    display: flex;
+    flex-direction: column;  
+    padding: 8px; 
+}
+.generate{
+    background-color: green;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top: 6px;
+}
+
+.text{
+    margin: 0;
+    padding: 4px;
+}

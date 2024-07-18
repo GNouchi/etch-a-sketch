@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Etch-a-sketch</title>
+</head>
+<body>
+<!-- outside container -->
+    <h1 class = "text">Etch-a-sketch</h1>
+    <p class="text">Hold mouse to color, release to erase.</p>
+    <h4 class = "text">
+        Number of squares per row (default: 16)
+    </h4>
+<!-- btn assets still outside container -->
+    <div class="btn-row">
+        <input name="inputVal" type="number" value="16" min="1" max="100" step="1" id="inputVal" placeholder="Max 100">
+        <button class="generate">Generate</button>
+    </div>
+<!-- squares start -->
+    <div class="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
